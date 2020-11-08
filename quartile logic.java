@@ -1,9 +1,10 @@
+//its optional to use the java.io package Here.
 import java.io.*;
 import java.util.*; 
   
 class quartile{ 
   
-   
+   //We first inquire the logic of geting the median from the given values.
     public static double Median(double nm[], int n) 
     { 
         
@@ -21,7 +22,7 @@ class quartile{
     } 
 		return m;
 	}
-			 
+//We do first get the First Quartile of the given values
 			 static double Q1(int n,double[] nm)
 			 {
 					double b,x;
@@ -38,7 +39,8 @@ class quartile{
 					}
 				return x;
 			 }
-			 
+
+//We also get the third quartile as the formulars do indicate in Math
 			 static double Q3(int n,double[] nm)
 			 {
 					double b,x;
@@ -56,10 +58,12 @@ class quartile{
 				return x;
 			 }
 				
+// The compiling class
     public static void main(String args[]) 
     { 
          
-		 
+	    
+//The sortng Logic
 				int i;
 				
 				double nm[] = new double[6];
